@@ -1,8 +1,7 @@
 
 import React from 'react';
 
-
-const Navbar = () => {
+ const Navbar= () => {
     return (
         <nav className="navbar">
             <div className="logo">SKYVER</div>
