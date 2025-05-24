@@ -1,11 +1,13 @@
 import React from 'react';
-import styles from '../../styles/home/Home.module.css';
-import Navbar from '../../components/Navbar';
+import styles from '../styles/Home/home.module.css';
+
+import Navbar from "../Components/Navbar.jsx";
+
 
 function Home() {
     return (
         <div className={styles.home}>
-            <Navbar />
+          <Navbar />
             <div className={styles.heroSection}>
                 <div className={styles.heroText}>
                     <h1>The Power of a Growth Mindset</h1>

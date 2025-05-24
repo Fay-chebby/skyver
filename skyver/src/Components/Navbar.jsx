@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from '../../styles/navbar/Navbar.module.css'; // corrected path
+import styles from '../styles/navbar/Navbar.module.css';
+
+
 
 function Navbar() {
     return (

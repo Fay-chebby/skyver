@@ -1,0 +1,65 @@
+.home {
+    background-color: #ffe9df;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.heroText {
+    max-width: 40%;
+}
+
+.heroText h1 {
+    font-size: 2.5rem;
+    color: #1e1e2f;
+}
+
+.heroText p {
+    color: #555;
+    margin: 1rem 0;
+}
+
+.viewMoreBtn {
+    padding: 0.75rem 1.5rem;
+    background-color: #a4661b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.heroImage {
+    position: relative;
+}
+
+.heroImage img {
+    border-radius: 20px;
+    box-shadow: -10px 10px 0 #a4661b;
+    width: 400px;
+}
+
+.successBox {
+    position: absolute;
+    bottom: -20px;
+    left: -30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.percentage {
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
