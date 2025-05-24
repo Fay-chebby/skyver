@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Home/home.module.css';
-
+import speaker from '../assets/speaker.jpeg'
 import Navbar from "../Components/Navbar.jsx";
 
 
@@ -14,12 +14,14 @@ function Home() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod vehicula.</p>
                     <button className={styles.viewMoreBtn}>View more</button>
                 </div>
+                <div className={styles.image}>
                 <div className={styles.heroImage}>
-                    <img src="https://via.placeholder.com/400x400" alt="Speaker" />
+                    <img src={speaker} alt="Speaker" />
                     <div className={styles.successBox}>
                         <div className={styles.percentage}>90%</div>
                         <div>Success<br />Result</div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
