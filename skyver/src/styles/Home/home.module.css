@@ -71,5 +71,7 @@
 .percentage {
     background-color:  #a4661b;
     padding: 0.5rem;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    stroke-linejoin: round;
+    -webkit-text-stroke-color: #a4661b;
 }
