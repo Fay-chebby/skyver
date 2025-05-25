@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../styles/Home/home.module.css';
-import speaker from '../assets/speaker.jpeg'
-import Navbar from "../Components/Navbar.jsx";
+import styles from '../../styles/Home/home.module.css';
+import speaker from '../../assets/speaker.jpeg'
+import Navbar from "../../Components/Navbar.jsx";
 
 
 function Home() {
