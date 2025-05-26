@@ -3,6 +3,7 @@ import styles from '../../styles/Home/home.module.css';
 import speaker from '../../assets/speaker.jpeg'
 import Navbar from "../../Components/Navbar.jsx";
 import CoachingServices from "../../Components/CoachingServices.jsx";
+import Testimonials from "../../Components/Testimonials.jsx";
 
 
 function Home() {
@@ -61,7 +62,7 @@ function Home() {
             </div>
                 <CoachingServices/>
             </div>
-            <
+            {/*<Testimonials/>*/}
         </div>
     );
 }

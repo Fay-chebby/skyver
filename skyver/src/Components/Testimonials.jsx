@@ -1,8 +1,8 @@
 import React from "react";
-import styles from '../../styles/testimonial/Testimonials.module.css';
-import chichiImg from "../assets/chichi.jpg"; // Replace with correct paths
-import queenRitaImg from "../assets/queen.jpg";
-import gloriaImg from "../assets/gloria.jpg";
+import styles from '../styles/testimonial/Testimonials.module.css';
+// import chichiImg from "../assets/chichi.jpg"; // Replace with correct paths
+// import queenRitaImg from "../assets/queen.jpg";
+// import gloriaImg from "../assets/gloria.jpg";
 
 const testimonials = [
     {
