@@ -24,8 +24,19 @@ function Home() {
                 </div>
                 </div>
             </div>
-        </div>
-    );
-}
+            <div className={styles.values}>
+                <div>
+                    <div className={styles.heroImage}>
+                        <img src={speaker} alt="Speaker"/>
+                    </div>
+                    </div>
+                <div>
 
-export default Home;
+                </div>
+
+                </div>
+            </div>
+            );
+            }
+
+            export default Home;
