@@ -1,0 +1,56 @@
+.testimonialSection {
+    background-color: #ffe9df;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1e1e2f;
+    margin-bottom: 2rem;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 300px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    position: relative;
+    text-align: left;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.quote {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.4;
+}
+
+.quoteIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    color: #a4661b;
+}

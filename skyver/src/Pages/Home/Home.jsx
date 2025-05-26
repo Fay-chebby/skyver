@@ -61,6 +61,7 @@ function Home() {
             </div>
                 <CoachingServices/>
             </div>
+            <
         </div>
     );
 }
