@@ -31,17 +31,27 @@ function Home() {
                     </div>
                     </div>
                 <div>
-                    <div className={styles.value}>
-                    <div className={styles.mission}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
-                            vehicula.</p>
+                    <div className={styles.text}>
+                        <p> Our mission and vision</p>
+                        <div className={styles.value}>
 
-                    </div>
-                    <div className={styles.vision}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
-                            vehicula.</p>
+                            <div className={styles.mission}>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis
+                                    euismod
+                                    vehicula.</p>
 
-                    </div>
+                            </div>
+                            <div className={styles.vision}>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis
+                                    euismod
+                                    vehicula.</p>
+
+                            </div>
+
+                        </div>
+                        <button className={styles.viewMoreBtn}>View more
+
+                        </button>
                     </div>
                 </div>
 
