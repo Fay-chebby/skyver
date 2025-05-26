@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../../styles/Home/home.module.css';
 import speaker from '../../assets/speaker.jpeg'
 import Navbar from "../../Components/Navbar.jsx";
+import CoachingServices from "../../Components/CoachingServices.jsx";
 
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
                 </div>
                 </div>
             </div>
+            < div className={styles.valuess}>
             <div className={styles.values}>
                 <div>
                     <div className={styles.heroImages}>
@@ -56,6 +58,8 @@ function Home() {
 
                 </div>
 
+            </div>
+                <CoachingServices/>
             </div>
         </div>
     );

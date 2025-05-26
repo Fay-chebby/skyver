@@ -1,0 +1,73 @@
+.servicesSection {
+    padding: 4rem 2rem;
+    background-color: #fefefe;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.textCenter h2 {
+    font-size: 1.8rem;
+    color: #1e1e2f;
+    margin-bottom: 0.8rem;
+}
+
+.textCenter p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    width: 280px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.icon {
+    font-size: 2.5rem;
+    color: #a4661b;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #1e1e2f;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.learnMore {
+    background-color: transparent;
+    border: 1.5px solid #a4661b;
+    border-radius: 20px;
+    padding: 0.5rem 1.2rem;
+    color: #a4661b;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.learnMore:hover {
+    background-color: #a4661b;
+    color: white;
+}
