@@ -26,17 +26,28 @@ function Home() {
             </div>
             <div className={styles.values}>
                 <div>
-                    <div className={styles.heroImage}>
+                    <div className={styles.heroImages}>
                         <img src={speaker} alt="Speaker"/>
                     </div>
                     </div>
                 <div>
+                    <div className={styles.value}>
+                    <div className={styles.mission}>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
+                            vehicula.</p>
 
+                    </div>
+                    <div className={styles.vision}>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
+                            vehicula.</p>
+
+                    </div>
+                    </div>
                 </div>
 
-                </div>
             </div>
-            );
-            }
+        </div>
+    );
+}
 
-            export default Home;
+export default Home;

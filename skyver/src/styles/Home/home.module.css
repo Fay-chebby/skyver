@@ -75,3 +75,33 @@
     stroke-linejoin: round;
     -webkit-text-stroke-color: #a4661b;
 }
+/*values*/
+
+.heroImages {
+    position: relative;
+    object-fit: cover;
+    margin-left: 90px;
+
+
+}
+
+.heroImages img {
+    border-radius: 20px;
+    box-shadow: -20px 10px 0 #a4661b;
+    width: 500px;
+    height: 400px;
+
+}
+.values{
+    display: flex;
+    justify-content: space-between;
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-top: 50px;
+    gap: 20px;
+    color: black;
+
+}
