@@ -1,6 +1,8 @@
 .footer {
     background-color: #a4661b;
     color: white;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
     padding: 3rem 2rem 2rem;
     margin-top: 4rem;
 }
