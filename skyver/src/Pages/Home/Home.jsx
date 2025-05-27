@@ -4,6 +4,7 @@ import speaker from '../../assets/speaker.jpeg'
 import Navbar from "../../Components/Navbar.jsx";
 import CoachingServices from "../../Components/CoachingServices.jsx";
 import Testimonials from "../../Components/Testimonials.jsx";
+import Footer from "../../Components/Footer.jsx";
 
 
 function Home() {
@@ -63,6 +64,7 @@ function Home() {
                 <CoachingServices/>
             </div>
             <Testimonials/>
+            <Footer/>
         </div>
     );
 }
