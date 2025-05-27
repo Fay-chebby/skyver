@@ -97,6 +97,7 @@
 .valuess{
     background-color:  white;
     border-radius: 60px;
+    border-bottom: 80px;
 }
 .values{
     display: flex;

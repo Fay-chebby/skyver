@@ -62,7 +62,7 @@ function Home() {
             </div>
                 <CoachingServices/>
             </div>
-            {/*<Testimonials/>*/}
+            <Testimonials/>
         </div>
     );
 }
