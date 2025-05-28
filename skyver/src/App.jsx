@@ -9,8 +9,8 @@ function App() {
   return (
    <Router>
      <Routes>
-       <Route path="/" render={() => <Home />} />
-       <Route path="/about" component={<About />} />
+       <Route path="/" element={<Home />} />
+       <Route path="/about" element={<About />} />
      </Routes>
    </Router>
 

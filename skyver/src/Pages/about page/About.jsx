@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./HeroImage.module.css";
-import heroImg from "../";
+import styles from "../../styles/About/About.module.css";
+import heroImg from "../../assets/speaker.jpeg";
 import Navbar from "../../Components/Navbar.jsx"; // adjust path as needed
 
 const About = () => {
