@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <section className={styles.history}>
                 <div className={styles.imageContainer}>
-                    <img src={historyImg} alt="History"/>
+                    <img src={heroImg} alt="History"/>
                 </div>
                 <div className={styles.textContainer}>
                     <h2>
