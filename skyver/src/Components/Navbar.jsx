@@ -8,12 +8,14 @@ function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.logo}>SKYVER</div>
             <ul className={styles.navLinks}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/services">Services</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
             </ul>
-            <button className={styles.contactBtn}>Contact Us</button>
+            <Link to="/contact">
+                <button className={styles.contactBtn}>Contact Us</button>
+            </Link>
         </nav>
     );
 }
