@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "../../styles/About/About.module.css";
 import heroImg from "../../assets/speaker.jpeg";
-import Navbar from "../../Components/Navbar.jsx"; // adjust path as needed
+import Navbar from "../../Components/Navbar.jsx";
+import Footer from "../../Components/Footer.jsx";
 
 const About = () => {
     return (
@@ -32,6 +33,7 @@ const About = () => {
                     <button className={styles.readMore}>Read More</button>
                 </div>
             </section>
+            <Footer/>
         </div>
     );
 };
