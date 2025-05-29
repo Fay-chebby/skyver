@@ -3,6 +3,7 @@ import styles from "../../styles/About/About.module.css";
 import heroImg from "../../assets/speaker.jpeg";
 import Navbar from "../../Components/Navbar.jsx";
 import Footer from "../../Components/Footer.jsx";
+import { FaBuilding, FaBullseye, FaUserTie, FaChartLine } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -51,7 +52,7 @@ const About = () => {
                         <button className={styles.readMore}>Read More</button>
                     </div>
                     <div className={styles.imageBox}>
-                        <img src={rightImage} alt="Why Choose Us"/>
+                        <img src={heroImg} alt="Why Choose Us"/>
                     </div>
                 </section>
 
@@ -83,7 +84,7 @@ const About = () => {
                     </h2>
                     <div className={styles.grid}>
                         <div className={styles.card}>
-                            <FaBuilding className={styles.icon}/>
+                            <FaBuilding  className={styles.icon}/>
                             <h4>Aligned and Connected.</h4>
                             <p>Figma ipsum component variant mask layer.</p>
                         </div>
