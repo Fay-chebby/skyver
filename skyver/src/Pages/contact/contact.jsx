@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Contact.module.css";
+import styles from "../../styles/contact/Contact.module.css";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaStar, FaShieldAlt, FaShippingFast, FaHeadset } from "react-icons/fa";
 
 const Contact = () => {
