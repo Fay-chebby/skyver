@@ -1,0 +1,132 @@
+.contactWrapper {
+    font-family: 'Arial', sans-serif;
+    color: #1e1e2f;
+    background-color: #ffe9df;
+}
+
+.heroHeader {
+    text-align: center;
+    background: url('../assets/speaker.jpeg') no-repeat center center/cover;
+    padding: 8rem 1rem 3rem;
+    color: #1e1e2f;
+}
+
+.heroHeader h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.heroHeader p {
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+.contactSection {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.contactSection h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #1e1e2f;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.contactContent {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infoBlock {
+    flex: 1;
+    min-width: 280px;
+}
+
+.infoItem {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+}
+
+.icon {
+    font-size: 1.3rem;
+    color: #a4661b;
+    margin-top: 0.3rem;
+}
+
+.contactForm {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contactForm button {
+    padding: 0.7rem 1.5rem;
+    background-color: #a4661b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.contactForm button:hover {
+    background-color: #8a520f;
+}
+
+.featureStrip {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    border-top: 1px solid #ddd;
+}
+
+.featureStrip div {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0.5rem 0;
+    max-width: 220px;
+}
+
+.featureStrip div svg {
+    color: #a4661b;
+    font-size: 1.5rem;
+}
+
+.featureStrip p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.featureStrip span {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #555;
+}
