@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../styles/contact/Contact.module.css";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaStar, FaShieldAlt, FaShippingFast, FaHeadset } from "react-icons/fa";
+import Footer from "../../Components/Footer.jsx";
 
 const Contact = () => {
     return (
@@ -24,11 +25,11 @@ const Contact = () => {
                     <div className={styles.infoBlock}>
                         <div className={styles.infoItem}>
                             <FaMapMarkerAlt className={styles.icon} />
-                            <p><strong>Address</strong><br />236 5th SE Avenue, New York NY10000, United States</p>
+                            <p><strong>Address</strong><br />236 Nairobi, Kenya</p>
                         </div>
                         <div className={styles.infoItem}>
                             <FaPhoneAlt className={styles.icon} />
-                            <p><strong>Phone</strong><br />Mobile: (+84) 546-6789<br />Hotline: (+84) 456-6789</p>
+                            <p><strong>Phone</strong><br />Mobile: (+254) 798 067 789<br /></p>
                         </div>
                         <div className={styles.infoItem}>
                             <FaClock className={styles.icon} />
@@ -54,6 +55,7 @@ const Contact = () => {
                 <div><FaShippingFast /> <p>Free Shipping<br /><span>Order over 150 $</span></p></div>
                 <div><FaHeadset /> <p>24 / 7 Support<br /><span>Dedicated support</span></p></div>
             </div>
+        <Footer/>
         </div>
     );
 };
