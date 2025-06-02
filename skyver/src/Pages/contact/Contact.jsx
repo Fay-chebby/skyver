@@ -6,13 +6,13 @@ import Footer from "../../Components/Footer.jsx";
 const Contact = () => {
     return (
         <div className={styles.contactWrapper}>
-            {/* Header */}
+
             <div className={styles.heroHeader}>
                 <h1>Contact</h1>
                 <p>Home / Contact</p>
             </div>
 
-            {/* Contact Section */}
+
             <section className={styles.contactSection}>
                 <h2>Get In Touch With Us</h2>
                 <p className={styles.subtitle}>
@@ -21,7 +21,7 @@ const Contact = () => {
                 </p>
 
                 <div className={styles.contactContent}>
-                    {/* Left Info */}
+
                     <div className={styles.infoBlock}>
                         <div className={styles.infoItem}>
                             <FaMapMarkerAlt className={styles.icon} />
@@ -37,7 +37,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* Contact Form */}
+
                     <form className={styles.contactForm}>
                         <input type="text" placeholder="Your name" />
                         <input type="email" placeholder="Email address" />
@@ -48,7 +48,7 @@ const Contact = () => {
                 </div>
             </section>
 
-            {/* Feature Strip */}
+
             <div className={styles.featureStrip}>
                 <div><FaStar /> <p>High Quality<br /><span>crafted from top materials</span></p></div>
                 <div><FaShieldAlt /> <p>Warranty Protection<br /><span>Over 2 years</span></p></div>

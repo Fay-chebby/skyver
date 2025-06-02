@@ -86,7 +86,7 @@ const About = () => {
                         <div className={styles.card}>
                             <FaBuilding  className={styles.icon}/>
                             <h4>Aligned and Connected.</h4>
-                            <p>Figma ipsum component variant mask layer.</p>
+                            <p>Figma ipsum  layer.</p>
                         </div>
                         <div className={`${styles.card} ${styles.highlight}`}>
                             <FaBullseye className={styles.icon}/>
