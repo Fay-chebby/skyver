@@ -2,10 +2,12 @@ import React from "react";
 import styles from "../../styles/contact/Contact.module.css";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock, FaStar, FaShieldAlt, FaShippingFast, FaHeadset } from "react-icons/fa";
 import Footer from "../../Components/Footer.jsx";
+import Navbar from "../../Components/Navbar.jsx";
 
 const Contact = () => {
     return (
         <div className={styles.contactWrapper}>
+            <Navbar/>
 
             <div className={styles.heroHeader}>
                 <h1>Contact</h1>
