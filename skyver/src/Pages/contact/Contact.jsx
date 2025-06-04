@@ -35,7 +35,7 @@ const Contact = () => {
                         </div>
                         <div className={styles.infoItem}>
                             <FaClock className={styles.icon} />
-                            <p><strong>Working Time</strong><br />Mon-Fri: 9:00 - 22:00<br />Sat-Sun: 9:00 - 21:00</p>
+                            <p><strong>Working Time</strong><br />Mon-Fri: 8:00am - 5:00pm<br />Sat-Sun: 9:00 - 21:00</p>
                         </div>
                     </div>
 
