@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className={styles.copyright}>
-                © Skyver. All rights reserved. Designed by Fay-chebby
+                @copy Skyver. All rights reserved. Designed by Fay-chebby
             </p>
         </footer>
     );
