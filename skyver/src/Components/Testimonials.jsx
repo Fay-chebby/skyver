@@ -7,7 +7,7 @@ import gloriaImg from "../assets/gloria.jpg";
 const testimonials = [
     {
         name: "ChiChi",
-        country: "South Africa",
+        country: "Kenya",
         image: chichiImg,
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod vehicula. Quisque diam dui, imperdiet et",
     },
