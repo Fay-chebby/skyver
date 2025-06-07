@@ -15,13 +15,13 @@ const testimonials = [
         name: "Queen Rita",
         country: "Kenya",
         image: queenRitaImg,
-        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod vehicula. Quisque diam dui, imperdiet et",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     },
     {
         name: "Gloria Uko",
         country: "Kenya",
         image: gloriaImg,
-        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod vehicula. Quisque diam dui, imperdiet et",
+        quote: "Lorem ipsum dolor sit amet, ",
     },
 ];
 
